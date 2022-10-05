@@ -1,0 +1,9 @@
+<div class="bg-white rounded-lg">
+  <img [src]="show?.url" class="h-96 w-full bg-cover rounded-t-lg">
+  <div class="py-5 px-5 flex justify-between">
+    <h2 class="text-md font-bold">{{ show?.name }}</h2>
+    <p class="text-xs text-gray-500 flex">
+      <img *ngFor="let rating of [].constructor(show?.rating)" src="assets/star.svg" class="h-5">
+    </p>
+  </div>
+</div>

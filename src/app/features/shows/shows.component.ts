@@ -1,15 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import {Component} from '@angular/core';
+import {ShowsService} from "./shows.service";
 
 @Component({
-  selector: 'app-books',
-  templateUrl: './books.component.html',
-  styleUrls: ['./books.component.scss']
+  selector: 'app-shows',
+  templateUrl: './shows.component.html',
+  styleUrls: ['./shows.component.scss']
 })
-export class ShowsComponent implements OnInit {
+export class ShowsComponent {
 
-  constructor() { }
+  shows = this.showsService.getShows();
 
-  ngOnInit(): void {
-  }
+  constructor(private showsService: ShowsService) { }
 
 }

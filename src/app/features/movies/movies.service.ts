@@ -8,7 +8,7 @@ export class MoviesService {
 
   private movies: Movie[] = [
     {
-      title: 'Harry Potter and the Philosopher\'s Stone',
+      title: 'Harry Potter',
       subtitle: 'And the Philosopher\'s Stone',
       url: 'https://m.media-amazon.com/images/M/MV5BMzkyZGFlOWQtZjFlMi00N2YwLWE2OWQtYTgxY2NkNmM1NjMwXkEyXkFqcGdeQXVyNjY1NTM1MzA@._V1_.jpg',
       rating: 5

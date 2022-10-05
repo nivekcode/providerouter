@@ -1,1 +1,3 @@
-<p>books works!</p>
+<div class="grid grid-cols-4 grid-rows-2 gap-5">
+  <app-show-card *ngFor="let show of shows" [show]="show"></app-show-card>
+</div>

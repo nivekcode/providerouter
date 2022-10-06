@@ -44,7 +44,7 @@ export class ShowsService {
     },
     {
       name: 'Black Mirror',
-      url: 'https://static.wikia.nocookie.net/black-mirror/images/f/f6/Black_Mirror_Netflix_Poster.jpg/revision/latest?cb=20171230155236&path-prefix=de',
+      url: 'https://images-na.ssl-images-amazon.com/images/I/81UcD17TMrL.jpg',
       rating: 4
     }
   ];
